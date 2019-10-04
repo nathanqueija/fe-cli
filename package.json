@@ -1,0 +1,24 @@
+{
+  "name": "@sellics/cli",
+  "description": "A CLI to automate all the boring FE configuration and processes at Sellics.",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "bin": {
+    "@sellics/cli": "bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "cypress": "^3.4.1",
+    "inquirer": "^7.0.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
